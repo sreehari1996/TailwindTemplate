@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Test</title>
+  <link href="./assets/css/output.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets//css/dist/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/css/dist/assets/owl.carousel.css"/>
+</head>
+<body>
+  <div class="main-contant max-w-custom-2 m-auto">
+    <div class="bg-trasparent">
+      <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tailwind</span>
+          </a>
+          <button data-collapse-toggle="navbar-default" type="button" class="navbar-default inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" href="#Howwork">How its Work</a>
+              </li>
+              <li>
+                <a href="#explore" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Explore</a>
+              </li>
+              <li>
+                <a href="#clients-reviews" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Review</a>
+              </li>
+              <li>
+                <a href="#Article" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+              </li>
+              <li>
+                <a href="#contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- <header class="inset-x-0 top-0 z-50">
+          <div class="flex items-center justify-between p-6 lg-px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+              <a href="#" class="-m-1.5 p-1.5">
+                <span class="sr-only">Your Company</span>
+                <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
+              </a>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">
+              <a href="#" class="text-sm/6 font-semibold text-gray-900">
+                Product
+              </a>
+              <a href="#" class="text-sm/6 font-semibold text-gray-900">Features</a>
+              <a href="#" class="text-sm/6 font-semibold text-gray-900">Marketplace</a>
+              <a href="#" class="text-sm/6 font-semibold text-gray-900 ">Company</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+              <a href="#" class="text-sm/6 font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </div>
+      </header> -->
+    </div> 
+    <!-- header -->
+    <section class="relative">
+        <div class="bg-gray-500  bg-hero-pattern  bg-cover bg-center h-[500px] sm:h-[800px] relative" >
+          <div class="overlay"></div> 
+          <div class="titile-head flex-col justify-center flex p-[20px] sm:p[0] items-center h-full">
+              <h2 class="font-bold block text-5xl text-white uppercase mx-50 text-center max-w-3xl z-50">best place to find and explore
+                that all you need
+              </h2> 
+              <span class="block uppercase text-white  z-50 text-white-600 leading-8 text-xl mt-4 cursor-pointer">Find Best Place, Restaurant, Hotel, Real State and many more think in just One click</span>
+          </div>
+        </div>
+        <div class="container sm:max-w-[1200px] sm:absolute bottom-[-40px] left-0 right-0 z-50">
+
+          <div class="grid sm:grid-cols-4 gap-10">
+            <div class="grid">
+              <div class="bg-white p-[30px] rounded-md border-opacity-50 border text-center">
+                <p><i class="fas fa-home"></i></p>
+                <p class="block">Restaurant</p>
+                <span class="text-gray-400">150 list</span>
+              </div>
+            </div>
+            <div class="grid">
+              <div class="bg-white p-[30px] rounded-md border-opacity-50 border text-center">
+                <p><i class="fas fa-map-marked-alt"></i></p>
+                <p class="block">destination</p>
+                <span class="text-gray-400">150 list</span>
+              </div>
+            </div>
+            <div class="grid">
+              <div class="bg-white p-[30px] rounded-md border-opacity-50 border text-center">
+                <p><i class="fas fa-hotel"></i></p>
+                <p class="block">hotels</p>
+                <span class="text-gray-400">150 list</span>
+              </div>
+            </div>
+            <div class="grid">
+              <div class="bg-white p-[30px] rounded-md border-opacity-50 border text-center">
+                <p><i class="fas fa-car"></i></p>
+                <p class="block">healthcaree</p>
+                <span class="text-gray-400">150 list</span>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum laboriosam modi ipsam iste quia earum optio impedit eaque fugit ducimus temporibus nam eos laudantium ratione, maxime nobis, consequuntur repudiandae aliquid?</p> -->
+    </section>
+    <section class="howWork p-[10px] sm:p-[80px]" id="Howwork">
+      <div class="howitworks-section">
+        <h4 class="text-center uppercase text-xl">How its Works</h4>
+        <p class="text-center mt-2">Learn More about how our website works</p>
+      </div>
+      <div class="grid grid-cols-12 gap-6 p-[0px] sm:p[100px] pt-[60px] mx-auto max-w-custom-max">
+        <!-- Child grid item -->
+        <div class="col-span-12 sm:col-span-6 md:col-span-4 grid grid-cols-1">
+          <div class="hover:bg-pink hover:text-white text-center border-slate-500 border-opacity-50 rounded-md p-[50px] px-[42px] shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+            <div class="mx-auto rounded-full w-[50px] h-[50px] p-[20px] bg-slate-100 flex items-center justify-center">
+              <span class="hover:text-pink"><i class="fas fa-lightbulb"></i></span>
+            </div>
+            <div class="mt-3">
+              <h3 class="uppercase font-medium text-md">Choose what to do</h3>
+              <div class="mt-5">
+                <p>Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.</p>
+              </div>
+            </div>
+            <div class="mt-5">
+              <button class="btn border border-slate-500 p-[6px] font-small rounded-md">Read More</button>
+            </div>
+          </div>
+      
+        </div>
+        <div class="col-span-12 sm:col-span-6 md:col-span-4 grid grid-cols-1">
+          <div class="hover:bg-pink hover:text-white text-center border-slate-500 border-opacity-50 rounded-md p-[50px] px-[42px] shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+            <div class="mx-auto rounded-full w-[50px] h-[50px] p-[20px] bg-slate-100 flex items-center justify-center">
+              <span class="hover:text-pink"><i class="fas fa-search"></i></span>
+            </div>
+            <div class="mt-3">
+              <h3 class="uppercase font-medium text-md">Choose what to do</h3>
+              <div class="mt-5">
+                <p>Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.</p>
+              </div>
+            </div>
+            <div class="mt-5">
+              <button class="btn border border-slate-500 p-[6px] font-small rounded-md">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-12 sm:col-span-6 md:col-span-4 grid grid-cols-1">
+          <div class="hover:bg-pink hover:text-white text-center border-slate-500 border-opacity-50 rounded-md p-[50px] px-[42px] shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+            <div class="mx-auto rounded-full w-[50px] h-[50px] p-[20px] bg-slate-100 flex items-center justify-center">
+              <span class="hover:text-pink"><i class="fas fa-map-marker-alt"></i></span>
+            </div>
+            <div class="mt-4">
+              <h3 class="uppercase font-medium text-md">Choose what to do</h3>
+              <div class="mt-5">
+                <p>Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.</p>
+              </div>
+            </div>
+            <div class="mt-5">
+              <button class="btn border border-slate-500 p-[6px] font-small rounded-md">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="explore" id="explore">
+      <div class="bg-graylight p-[10px] sm:p-[60px] md:p-[30px]  text-center">
+        <h3 class="text-xl">EXPLORE</h3>
+        <p class="mt-3 text-slate-500">Explore New place, food, culture around the world and many more</p>
+        <div class="grid sm:grid-cols-3 gap-6 p-[10px] sm:p-[100px] md:p-[20px] pt-[60px] mx-auto max-w-custom-max">
+          <div class=" sm:col-span-1">
+            <div class="grid">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/image/explore/e2.jpg" class="img-fluid">
+                  <div class="single-explore-txt bg-white shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+                    <div class="p-3 text-left">
+                      <h4 class="capitalize font-bold">tommy helfinger bar</h4>
+                    </div>
+                    <div class="grid grid-cols-3 pb-[15px]">
+                      <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                          <span class="bg-skyblue px-[5px] text-white text-smallFont rounded-sm ">5.0</span>
+                          <span class="text-smallFont inline text-slate-500">10 Ratings</span>
+                      </div>
+                      <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                        <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Form</span>
+                        <span class="text-smallFont inline text-pink">5$-300$</span>
+                      </div>
+                      <div class="rating flex items-center justify-between p-[10px] h-[20px] border-slate-500">
+                        <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Hotel</span>
+                      </div>
+                     
+                    </div>
+                    <div class="img-desc p-[12px] mt-[6px] flex items-start justify-between border-b-2 pb-[15px] text-slate-500">
+                      <img src="assets/image/clients/c1.png" class="img-fluid">
+                      <p class="text-slate-500 text-smallFont text-left mx-2 block ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident consequatur possimus, magni repudiandae placeat voluptas, ut explicabo et ipsam perferendis dolorem perspiciatis reiciendis incidunt harum nesciunt delectus, quae neque veniam.</p>
+                    </div>
+                    <div class="openknow">
+                      <div class="flex items-center justify-between">
+                        <div class="p-3">
+                          <span class="font-small text-smallFont text-slate-500 text-green-500">Open Know</span>
+                        </div>
+                        <div class="icon">
+                          <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-map-marker-alt"></i></span>
+                          <span class="mx-2 font-small text-smallFont text-slate-500"><i class="far fa-heart"></i></span>
+                          <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-arrow-alt-circle-up"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="card">
+              <div class="card-body">
+                <img src="./assets/image/explore/e3.jpg" class="img-fluid">
+                <div class="single-explore-txt bg-white shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+                  <div class="p-3 text-left">
+                    <h4 class="capitalize font-bold">tommy helfinger bar</h4>
+                  </div>
+                  <div class="grid grid-cols-3 pb-[15px]">
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                        <span class="bg-skyblue px-[5px] text-white text-smallFont rounded-sm ">5.0</span>
+                        <span class="text-smallFont inline text-slate-500">10 Ratings</span>
+                    </div>
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                      <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Form</span>
+                      <span class="text-smallFont inline text-pink">5$-300$</span>
+                    </div>
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-slate-500">
+                      <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Hotel</span>
+                    </div>
+                   
+                  </div>
+                  <div class="img-desc p-[12px] mt-[6px] flex items-start justify-between border-b-2 pb-[15px] text-slate-500">
+                    <img src="assets/image/clients/c1.png" class="img-fluid">
+                    <p class="text-slate-500 text-smallFont text-left mx-2 block ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident consequatur possimus, magni repudiandae placeat voluptas, ut explicabo et ipsam perferendis dolorem perspiciatis reiciendis incidunt harum nesciunt delectus, quae neque veniam.</p>
+                  </div>
+                  <div class="openknow">
+                    <div class="flex items-center justify-between">
+                      <div class="p-3">
+                        <span class="font-small text-smallFont text-slate-500 text-green-500">Open Know</span>
+                      </div>
+                      <div class="icon">
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-map-marker-alt"></i></span>
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="far fa-heart"></i></span>
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-arrow-alt-circle-up"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="card">
+              <div class="card-body">
+                <img src="./assets/image/e1.jpg" class="img-fluid">
+                <div class="single-explore-txt bg-white shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+                  <div class="p-3 text-left">
+                    <h4 class="capitalize font-bold">tommy helfinger bar</h4>
+                  </div>
+                  <div class="grid grid-cols-3 pb-[15px]">
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                        <span class="bg-skyblue px-[5px] text-white text-smallFont rounded-sm ">5.0</span>
+                        <span class="text-smallFont inline text-slate-500">10 Ratings</span>
+                    </div>
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                      <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Form</span>
+                      <span class="text-smallFont inline text-pink">5$-300$</span>
+                    </div>
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-slate-500">
+                      <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Hotel</span>
+                    </div>
+                   
+                  </div>
+                  <div class="img-desc p-[12px] mt-[6px] flex items-start justify-between border-b-2 pb-[15px] text-slate-500">
+                    <img src="assets/image/clients/c1.png" class="img-fluid">
+                    <p class="text-slate-500 text-smallFont text-left mx-2 block ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident consequatur possimus, magni repudiandae placeat voluptas, ut explicabo et ipsam perferendis dolorem perspiciatis reiciendis incidunt harum nesciunt delectus, quae neque veniam.</p>
+                  </div>
+                  <div class="openknow">
+                    <div class="flex items-center justify-between">
+                      <div class="p-3">
+                        <span class="font-small text-smallFont text-slate-500 text-green-500">Open Know</span>
+                      </div>
+                      <div class="icon">
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-map-marker-alt"></i></span>
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="far fa-heart"></i></span>
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-arrow-alt-circle-up"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="card">
+              <div class="card-body">
+                <img src="./assets/image/explore/e6.jpg" class="img-fluid">
+                <div class="single-explore-txt bg-white shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+                  <div class="p-3 text-left">
+                    <h4 class="capitalize font-bold">tommy helfinger bar</h4>
+                  </div>
+                  <div class="grid grid-cols-3 pb-[15px]">
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                        <span class="bg-skyblue px-[5px] text-white text-smallFont rounded-sm ">5.0</span>
+                        <span class="text-smallFont inline text-slate-500">10 Ratings</span>
+                    </div>
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                      <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Form</span>
+                      <span class="text-smallFont inline text-pink">5$-300$</span>
+                    </div>
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-slate-500">
+                      <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Hotel</span>
+                    </div>
+                   
+                  </div>
+                  <div class="img-desc p-[12px] mt-[6px] flex items-start justify-between border-b-2 pb-[15px] text-slate-500">
+                    <img src="assets/image/clients/c1.png" class="img-fluid">
+                    <p class="text-slate-500 text-smallFont text-left mx-2 block ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident consequatur possimus, magni repudiandae placeat voluptas, ut explicabo et ipsam perferendis dolorem perspiciatis reiciendis incidunt harum nesciunt delectus, quae neque veniam.</p>
+                  </div>
+                  <div class="openknow">
+                    <div class="flex items-center justify-between">
+                      <div class="p-3">
+                        <span class="font-small text-smallFont text-slate-500 text-green-500">Open Know</span>
+                      </div>
+                      <div class="icon">
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-map-marker-alt"></i></span>
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="far fa-heart"></i></span>
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-arrow-alt-circle-up"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="card">
+              <div class="card-body">
+                <img src="./assets/image/explore/e5.jpg" class="img-fluid">
+                <div class="single-explore-txt bg-white shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+                  <div class="p-3 text-left">
+                    <h4 class="capitalize font-bold">tommy helfinger bar</h4>
+                  </div>
+                  <div class="grid grid-cols-3 pb-[15px]">
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                        <span class="bg-skyblue px-[5px] text-white text-smallFont rounded-sm ">5.0</span>
+                        <span class="text-smallFont inline text-slate-500">10 Ratings</span>
+                    </div>
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                      <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Form</span>
+                      <span class="text-smallFont inline text-pink">5$-300$</span>
+                    </div>
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-slate-500">
+                      <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Hotel</span>
+                    </div>
+                   
+                  </div>
+                  <div class="img-desc p-[12px] mt-[6px] flex items-start justify-between border-b-2 pb-[15px] text-slate-500">
+                    <img src="assets/image/clients/c1.png" class="img-fluid">
+                    <p class="text-slate-500 text-smallFont text-left mx-2 block ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident consequatur possimus, magni repudiandae placeat voluptas, ut explicabo et ipsam perferendis dolorem perspiciatis reiciendis incidunt harum nesciunt delectus, quae neque veniam.</p>
+                  </div>
+                  <div class="openknow">
+                    <div class="flex items-center justify-between">
+                      <div class="p-3">
+                        <span class="font-small text-smallFont text-slate-500 text-green-500">Open Know</span>
+                      </div>
+                      <div class="icon">
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-map-marker-alt"></i></span>
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="far fa-heart"></i></span>
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-arrow-alt-circle-up"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="card">
+              <div class="card-body">
+                <img src="./assets/image/explore/e4.jpg" class="img-fluid">
+                <div class="single-explore-txt bg-white shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+                  <div class="p-3 text-left">
+                    <h4 class="capitalize font-bold">tommy helfinger bar</h4>
+                  </div>
+                  <div class="grid grid-cols-3 pb-[15px]">
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                        <span class="bg-skyblue px-[5px] text-white text-smallFont rounded-sm ">5.0</span>
+                        <span class="text-smallFont inline text-slate-500">10 Ratings</span>
+                    </div>
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-r border-slate-500">
+                      <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Form</span>
+                      <span class="text-smallFont inline text-pink">5$-300$</span>
+                    </div>
+                    <div class="rating flex items-center justify-between p-[10px] h-[20px] border-slate-500">
+                      <span class="px-[5px] text-smallFont rounded-sm text-slate-500">Hotel</span>
+                    </div>
+                   
+                  </div>
+                  <div class="img-desc p-[12px] mt-[6px] flex items-start justify-between border-b-2 pb-[15px] text-slate-500">
+                    <img src="assets/image/clients/c1.png" class="img-fluid">
+                    <p class="text-slate-500 text-smallFont text-left mx-2 block ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident consequatur possimus, magni repudiandae placeat voluptas, ut explicabo et ipsam perferendis dolorem perspiciatis reiciendis incidunt harum nesciunt delectus, quae neque veniam.</p>
+                  </div>
+                  <div class="openknow">
+                    <div class="flex items-center justify-between">
+                      <div class="p-3">
+                        <span class="font-small text-smallFont text-slate-500 text-green-500">Open Know</span>
+                      </div>
+                      <div class="icon">
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-map-marker-alt"></i></span>
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="far fa-heart"></i></span>
+                        <span class="mx-2 font-small text-smallFont text-slate-500"><i class="fas fa-arrow-alt-circle-up"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    
+    </section>
+    <section class="clients-reviews sm:py-[80px] p-[0px]" id="clients-reviews">
+      <div class="text-center container mx-auto heading">
+        <h2 class="text-xl uppercase">clients reviews</h2>
+        <div class="text-caption mb-2">
+          <p class="text-slate-500 text-xl">What our client say about us</p>
+        </div>
+        <div class="slider-section">
+          <div class="card p-3">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="bg-white border-[1px] rounded-md p-[30px]">
+                  <div class="user-section flex items-center justify-around">
+                    <div class="img">
+                      <img src="./assets/image/clients/c1.png" class="img-fluid w-[50px] h-[50px] radius-4">
+                    </div>
+                    <div class="userdetails">
+                      <h2 class="text-lg text-slate-500">Tom Leaker</h2>
+                      <span>London Lk</span>
+                      <div class="star">
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial-comment mt-[30px]">
+                    <p>
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="bg-white border-[1px] rounded-md  p-[30px]">
+                  <div class="user-section flex items-center justify-around">
+                    <div class="img">
+                      <img src="./assets/image/clients/c1.png" class="img-fluid w-[50px] h-[50px] radius-4">
+                    </div>
+                    <div class="userdetails">
+                      <h2 class="text-lg text-slate-500">Tom Leaker</h2>
+                      <span>London Lk</span>
+                      <div class="star">
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial-comment mt-[30px]">
+                    <p>
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="bg-white border-[1px] rounded-md  p-[30px]">
+                  <div class="user-section flex items-center justify-around">
+                    <div class="img">
+                      <img src="./assets/image/clients/c1.png" class="img-fluid w-[50px] h-[50px] radius-4">
+                    </div>
+                    <div class="userdetails">
+                      <h2 class="text-lg text-slate-500">Tom Leaker</h2>
+                      <span>London Lk</span>
+                      <div class="star">
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial-comment mt-[30px]">
+                    <p>
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="bg-white border-[1px] rounded-md p-[30px]">
+                  <div class="user-section flex items-center justify-around">
+                    <div class="img">
+                      <img src="./assets/image/clients/c1.png" class="img-fluid w-[50px] h-[50px] radius-4">
+                    </div>
+                    <div class="userdetails">
+                      <h2 class="text-lg text-slate-500">Tom Leaker</h2>
+                      <span>London Lk</span>
+                      <div class="star">
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial-comment mt-[30px]">
+                    <p>
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="bg-white border-[1px] rounded-md p-[30px]">
+                  <div class="user-section flex items-center justify-around">
+                    <div class="img">
+                      <img src="./assets/image/clients/c1.png" class="img-fluid w-[50px] h-[50px] radius-4">
+                    </div>
+                    <div class="userdetails">
+                      <h2 class="text-lg text-slate-500">Tom Leaker</h2>
+                      <span>London Lk</span>
+                      <div class="star">
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial-comment mt-[30px]">
+                    <p>
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="bg-white border-[1px] rounded-md  p-[30px]">
+                  <div class="user-section flex items-center justify-around">
+                    <div class="img">
+                      <img src="./assets/image/clients/c1.png" class="img-fluid w-[50px] h-[50px] radius-4">
+                    </div>
+                    <div class="userdetails">
+                      <h2 class="text-lg text-slate-500">Tom Leaker</h2>
+                      <span>London Lk</span>
+                      <div class="star">
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial-comment mt-[30px]">
+                    <p>
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="bg-white border-[1px] rounded-md p-[30px]">
+                  <div class="user-section flex items-center justify-around">
+                    <div class="img">
+                      <img src="./assets/image/clients/c1.png" class="img-fluid w-[50px] h-[50px] radius-4">
+                    </div>
+                    <div class="userdetails">
+                      <h2 class="text-lg text-slate-500">Tom Leaker</h2>
+                      <span>London Lk</span>
+                      <div class="star">
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                        <span class="text-yellow-500"><i class="fas fa-star"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial-comment mt-[30px]">
+                    <p>
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="relative banner sm:h-[300px] bg-banner w-full h-full m-0 py-[0] sm:py-[90px] sm:p-[90px] bg-no-repeat bg-cover bg-fixed">
+      <div class="sm:absolute inset-0 p-[90px] bg-gray/10 backdrop-blur-md flex items-center justify-center">
+        <div class="container m-0">
+          <div class="grid sm:grid-cols-3 mx-auto text-center">
+            <div class=" text-[60px] font-bold text-white">
+              96+
+              <p class="text-xl m-0 font-normal">listings</p>
+            </div>
+            <div class=" text-[60px] font-bold text-white">
+              105+
+              <p class="text-xl m-0 font-normal">listing categories</p>
+            </div>
+            <div class=" text-[60px] font-bold text-white">
+              30+
+              <p class="text-xl m-0 font-normal">visitors</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative newsAtricle" id="Article">
+        <div class="news p-[90px]">
+          <h2 class="text-center text-lg font-normal uppercase">news and articles</h2>
+          <p class="text-center mt-3 text-slate-500">Always upto date with our latest News and Articles</p>
+        </div>
+        <div class="container">
+          <div class="grid sm:grid-cols-3 gap-6 p-[10px] sm:p-[100px] md:p-[20px] pt-[60px] mx-auto max-w-custom-max">
+            <div class="grid">
+              <div class="card text-center rounded-md hover:text-pink">
+                <img src="./assets/image/blog/b1.jpg" class="w-full rounded-md">
+                <div class="card-body p-[30px] shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+                  <h4 class="text-center text-base font-normal">How to find your Desired Place more quickly</h4>
+                  <p class="mt-4 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aperiam voluptatibus deserunt beatae. Qui, molestias esse. Sit numquam magnam ullam quidem corrupti perspiciatis asperiores, culpa mollitia repellendus deleniti, tenetur fuga.</p>
+                </div>
+              </div>
+            </div>
+           <div class="grid">
+            <div class="card text-center rounded-md hover:text-pink">
+              <img src="./assets/image/blog/b2.jpg" class="w-full rounded-md">
+              <div class="card-body p-[30px] shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+                <h4 class="text-center text-base font-normal">How to find your Desired Place more quickly</h4>
+                <p class="mt-4 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aperiam voluptatibus deserunt beatae. Qui, molestias esse. Sit numquam magnam ullam quidem corrupti perspiciatis asperiores, culpa mollitia repellendus deleniti, tenetur fuga.</p>
+              </div>
+            </div>
+           </div>
+           <div class="grid">
+            <div class="card text-center rounded-md hover:text-pink">
+              <img src="./assets/image/blog/b3.jpg" class="w-full rounded-md">
+              <div class="card-body p-[30px] shadow-[0_0_10px_rgba(71,71,71,0.2)]">
+                <h4 class="text-center text-base font-normal">How to find your Desired Place more quickly</h4>
+                <p class="mt-4 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aperiam voluptatibus deserunt beatae. Qui, molestias esse. Sit numquam magnam ullam quidem corrupti perspiciatis asperiores, culpa mollitia repellendus deleniti, tenetur fuga.</p>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+    </section>
+    <section class="contact bg-graylight p-[30px] sm:p-[150px]" id="contact">
+      <div class="conatct-text text-center">
+        <h2 class="text-xl uppercase font-[600]">do you want to add your business listing with us?</h2>
+        <p class="text-lg text-base mt-5 text-slate-500">Listrace offer you to list your business with us and we very much able to promote your Business.</p>
+      </div>
+      <div class="search flex items-center max-w-[630px] mt-[40px] mx-auto ">
+        <input type="text" class="form-control w-[500px] h-[60px] p-[15px] rounded-l-md border-[1px]" placeholder="Enter Your Email Here">
+        <button class="btn btn-search w-[100px] h-[60px] w-[200px] bg-pink text-white rounded-r-md">Create Account</button> 
+      </div>
+    </section>
+    <footer class="bg-white p-[30px]">
+      <div class="container">
+        <div class="footerli block sm:flex md:flex-row  items-center md:justify-between pb-[30px] border-b-[1px]">
+          <!-- Left Section: Logo -->
+          <div class="navheadmenu mb-4 sm:mb-0 text-center sm:text-left">
+            <h3 class="text-base uppercase font-bold">Tail<span class="text-pink">Wind</span></h3>
+          </div>
+          <!-- Right Section: Navigation Menu -->
+          <div class="navmenu">
+            <ul class="p-0 m-0 flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between">
+              <li class="uppercase text-slate-500 mx-[12px] text-sm sm:text-base">how it works</li>
+              <li class="uppercase text-slate-500 mx-[12px] text-sm sm:text-base">explore</li>
+              <li class="uppercase text-slate-500 mx-[12px] text-sm sm:text-base">review</li>
+              <li class="uppercase text-slate-500 mx-[12px] text-sm sm:text-base">blog</li>
+              <li class="uppercase text-slate-500 mx-[12px] text-sm sm:text-base">contact</li>
+              <li class="uppercase text-slate-500 mx-[12px] text-sm sm:text-base">my account</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="footer-bottom flex flex-wrap items-center justify-between py-3 my-3 ">
+          <div>
+            <span class="text-base text-slate-500">©copyright. designed and developed by themesine</span>
+          </div>
+          <div>
+            <ul class="flex items-center justify-between">
+              <li class="text-[15px] text-slate-500 font-normal mx-3">+1 (222) 777 8888</li>
+              <li><span class="text-[20px] text-slate-500 font-normal mx-3"><i class="fab fa-facebook"></i></span></li>
+              <li><span class="text-[20px] text-slate-500 font-normal mx-3"><i class="fab fa-twitter"></i></span></li>
+              <li><span class="text-[20px] text-slate-500 font-normal mx-3"><i class="fab fa-linkedin-in"></i></i></span></li>
+              <li><span class="text-[20px] text-slate-500 font-normal mx-3"><i class="fab fa-instagram"></i></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/css/dist/owl.carousel.min.js"></script>
+</body>
+</html>
